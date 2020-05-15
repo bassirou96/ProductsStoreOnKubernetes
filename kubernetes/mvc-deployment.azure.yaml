@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: __ACR_NAME__.azurecr.io/webapp:1.__Build.BuildId__
+        image: bass/webapp:#{IMAGE_TAG}#
         ports:
         - containerPort: 80
         resources:

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: bass/webapp:#{IMAGE_TAG}#
+        image: tailspinspacegame6688.azurecr.io/webapp:#{IMAGE_TAG}#
         ports:
         - containerPort: 80
         resources:

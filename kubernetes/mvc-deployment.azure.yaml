@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: bass22.azurecr.io/helloacrtasks:$(IMAGE_TAG):#{IMAGE_TAG}#
+        image: bass22.azurecr.io/helloacrtasks:#{IMAGE_TAG}#
         ports:
         - containerPort: 80
         resources:

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: $(Build.Repository.Name):$(Build.BuildId)
+        image: bass22.azurecr.io/bass:latest:#{IMAGE_TAG}#
         ports:
         - containerPort: 80
         resources:
